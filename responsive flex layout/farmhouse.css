@@ -1,0 +1,238 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+   
+
+
+    body {
+      background-color: #e4e8e8;
+      color: #0b0b0b;
+    }
+
+    /* ---------- HEADER ---------- */
+    header {
+     background: linear-gradient(to right, #60e1b8, #56d656);
+     text-align: center;
+     padding: 50px 20px;
+     color: white;
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 16px;
+      opacity: 0.9;
+    }
+   
+
+    /* ---------- NAVIGATION ---------- */
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: white;
+      display: flex;
+     justify-content: center;
+      padding: 15px;
+      box-shadow: 0px 2px 8px rgba(16, 167, 24, 0.1);
+      z-index: 100;
+    }
+
+    nav a {
+      text-decoration: underline;
+      color: #cfa935;
+      margin: 0 20px;
+      font-weight: 500;
+      transition: color 0.9s;
+    }
+
+    nav a:hover {
+      color: #9e3eb1;
+    }
+
+    /* ---------- CONTENT ---------- */
+    section {
+      padding: 60px 10%;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #2f6d4f;
+    }
+
+    section p {
+      font-size: 16px;
+      line-height: 2;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    /* ---------- CARDS ---------- */
+    .cards {
+      display: grid;
+     grid-template-columns:repeat(auto-fit,minmax(250px,1fr)) ;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background:white;
+      padding: 5px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(75, 12, 237, 0.08);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translatex(10px);
+      box-shadow: 10px 20px 30px rgba(10, 166, 41, 0.1);
+
+    }
+
+    .card h3 {
+      color: #2f6d4f;
+      margin-bottom: 10px;
+    }
+
+    /* ---------- BOOKING FORM ---------- */
+    .booking-container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 50px;
+      box-shadow: 0 100px 205px rgba(147, 220, 69, 0.2);
+    }
+
+    form {
+      display: grid;
+      gap: 20px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 20px;
+      border-radius: 100px;
+      border: 1px solid black;
+      font-size: 14px;
+    }
+
+    input:focus, select:focus {
+      outline: none;
+      border-color: #5fa777;
+    }
+
+  
+    .btn {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #2f6d4f;
+  color: #ffffff;
+  border-radius: 10px;
+  text-decoration:underline;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+
+.btn:hover {
+  background-color: #282b46;
+}
+
+    .success {
+      margin-top: 20px;
+      color: green;
+      font-weight: 500;
+      display: none;
+    }
+
+    /* ---------- FOOTER ---------- */
+    footer {
+      background-color: #2f6d4f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+    footer p {
+      font-size: 14px;
+      
+      
+    }
+    .card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+/* ---------- MAP SECTION ---------- */
+.map-section {
+  padding: 70px 10%;
+  text-align: center;
+  background: linear-gradient(to top, #67a353, #ad7f9f);
+}
+
+.map-section h2 {
+  font-size: 32px;
+  color: #2f6d4f;
+  margin-bottom: 8px;
+}
+
+.map-subtitle {
+  font-size: 16px;
+  color: #151515;
+  margin-bottom: 30px;
+}
+
+/* Map container */
+.map-wrapper {
+  width: 50%;
+  height: 420px;
+  border-radius: 80px;
+  overflow: -moz-hidden-unscrollable;
+  box-shadow: 0 15px 35px rgba(77, 19, 195, 0.4);
+  transition: transform 0.4s ease;
+  margin: auto;
+}
+
+/* Hover effect */
+.map-wrapper:hover {
+  transform: scale(1.01);
+}
+
+/* iframe */
+.map-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Directions button */
+.map-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 32px;
+  background-color: #2f6d4f;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.map-btn:hover {
+  background-color: #5fa777;
+  transform: translateY(-2px);
+}
+
