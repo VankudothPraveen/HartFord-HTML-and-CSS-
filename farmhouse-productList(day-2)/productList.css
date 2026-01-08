@@ -1,0 +1,104 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Page Background */
+body {
+  background-color: #6e7b8c39;
+}
+
+/* Main Container */
+.container {
+  max-width: 1600px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Page Title */
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 35px;
+  color: #e90f0fe7;
+}
+
+/* PRODUCT GRID */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1.5fr));
+  gap: 20px;
+}
+
+/* PRODUCT CARD */
+.product-card {
+  display: grid;
+  grid-template-rows: 250px auto auto auto;
+  background-color: #a2b89adc;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(154, 37, 82, 0.47);
+  transition: transform 0.9s ease, box-shadow 0.3s ease;
+  height: 380px;
+}
+
+/* Hover Effect */
+.product-card:hover {
+  transform: translateY(10px);
+  box-shadow: 0 14px 35px rgba(71, 11, 154, 0.899);
+}
+
+/* Product Image */
+.product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Product Name */
+.product-card h3 {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #0c0c0c;
+  margin: auto;
+}
+
+/* Price */
+.price {
+  font-size: 16px;
+  font-weight: 600;
+  color: #d80c1d;
+  margin: auto;
+}
+
+/* Button */
+.product-card button {
+  align-self: end;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1d3557;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #1b7fbd;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .product-card {
+    height: auto;
+  }
+}
