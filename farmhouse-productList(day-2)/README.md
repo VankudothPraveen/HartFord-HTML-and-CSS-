@@ -14,6 +14,11 @@ It showcases a peaceful farmhouse experience with sections like About, Services,
   <img width="1760" height="990" alt="image" src="https://github.com/user-attachments/assets/baf92415-a828-4ed5-974f-d7873d480c40" />
   <img width="1760" height="990" alt="image" src="https://github.com/user-attachments/assets/a50640ac-7a2f-4214-992f-ed00f7ece7a0" />
   <img width="868" height="405" alt="image" src="https://github.com/user-attachments/assets/7dfaa26b-df7d-46a6-9e6e-eca30f4c6f90" />
+--Responsive page output
+  <img width="879" height="409" alt="Screenshot 2026-01-08 094805" src="https://github.com/user-attachments/assets/53e6bb9c-1282-46f2-a58c-9a7b41229e01" />
+
+
+
   ## 🛍️ Product List Page
 
 This page displays a **responsive product list layout** built using **CSS Grid**.  
@@ -27,6 +32,9 @@ It is designed to present products in a clean card-based structure with consiste
 - Works smoothly on all screen sizes
   output:
   <img width="1760" height="990" alt="image" src="https://github.com/user-attachments/assets/fadf0e19-b0e9-4c7b-a8df-be69d270df25" />
+  --Responsive page output
+  <img width="826" height="409" alt="image" src="https://github.com/user-attachments/assets/7e7e31cb-4b66-4cd8-b71f-83862d86582a" />
+
 
 
 
